@@ -20,12 +20,11 @@ Seven core result chains were compared numerically with frozen analysis outputs:
 6. patient-level survival and immune sensitivity analyses;
 7. GSE132465 single-cell scoring and patient-level comparison.
 
-These tests used legally redistributable or locally staged frozen intermediate inputs. Raw preprocessing for every GEO accession and the complete figure-generation layer were not rerun as a single end-to-end public-layout workflow. Files in `archive/provenance_only_scripts/` are supplied only to document analytical provenance and are not part of the supported execution path.
+These tests used legally redistributable or locally staged frozen intermediate inputs. Raw preprocessing for every GEO accession and the complete figure-generation layer were not rerun as a single end-to-end public-layout workflow.
 
 ## Contents
 
 - `scripts/`: numerically tested core scripts;
-- `archive/provenance_only_scripts/`: unvalidated historical/provenance scripts, excluded from the supported run path;
 - `config/`: frozen parameters and gene sets;
 - `metadata/`: data-access, script-status, run-order, and output-mapping documentation;
 - `results/summary_tables/`: publication-facing derived summaries;

@@ -21,4 +21,4 @@ Only scripts listed as `release_ready` in `script_inventory.tsv` form the suppor
 
 ## Important limitation
 
-The supported tests begin from frozen or locally staged intermediate inputs. The repository does not claim a single-command reconstruction from every raw GEO/GDC file. Historical scripts retained under `archive/provenance_only_scripts/` document provenance but have not passed the same public-layout validation.
+The supported tests begin from frozen or locally staged intermediate inputs. The repository does not claim a single-command reconstruction from every raw GEO/GDC file.

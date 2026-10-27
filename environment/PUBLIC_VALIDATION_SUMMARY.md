@@ -2,7 +2,7 @@
 
 Seven core chains were rerun in a clean ASCII-path test directory and compared with frozen outputs. The reproduced checks covered the Meta-CRISPR intersection, TCGA normalization and consensus clustering, fixed-centroid external projection, 624-patient acidification/metabolic models, CMS/MSI and nested CMS models, survival/immune outputs, and GSE132465 single-cell processing.
 
-The validation did not rerun raw preprocessing for every GEO accession and did not establish a single-command end-to-end reconstruction of every figure. Historical scripts outside the supported path are isolated under `archive/provenance_only_scripts/`.
+The validation did not rerun raw preprocessing for every GEO accession and did not establish a single-command end-to-end reconstruction of every figure.
 
 Key reproduced checkpoints included:
 
