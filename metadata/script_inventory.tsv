@@ -9,4 +9,5 @@ scripts/04_boundary_analyses/04_exact_nested_models_624.R	boundary	Strict nested
 scripts/04_boundary_analyses/05_acidification_metabolic_624.R	boundary	624-patient acidification, lactate, and metabolic models	release_ready	Categorical, adjusted, pathway, and proliferation-adjusted outputs reproduced
 scripts/04_boundary_analyses/06_immune_sensitivity_624.R	boundary	624-patient immune sensitivity	release_ready	Primary S10a-S10d fields reproduced within floating-point tolerance
 scripts/05_single_cell/01_process_gse132465_primary_crc.py	single cell	GSE132465 68-gene scoring	release_ready	68/68 genes, cell/patient counts, medians, and paired Wilcoxon result reproduced
+scripts/05_single_cell/02_generate_s1_figure.py	single cell	Generate Supporting Figure S1 from frozen GSE132465 score tables	release_ready	Figure regenerated from frozen cell-level, paired-patient, and test-result tables; mathematical P-value rendering verified
 archive/provenance_only_scripts/	archive	Historical and figure-generation scripts	provenance_only	Not part of the supported execution path; no end-to-end public-layout guarantee

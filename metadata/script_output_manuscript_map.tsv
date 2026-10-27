@@ -9,3 +9,4 @@ scripts/04_boundary_analyses/04_exact_nested_models_624.R	strict CMS increment s
 scripts/04_boundary_analyses/05_acidification_metabolic_624.R	acidification, lactate, pathway, and metabolic models	Figures 4-5; Table 4; S1 Table sheets S7a-S7c
 scripts/04_boundary_analyses/06_immune_sensitivity_624.R	immune boundary summaries	Figure 7; S1 Table sheets S10b-S10d
 scripts/05_single_cell/01_process_gse132465_primary_crc.py	cell-source score and patient-level paired test	S1 Fig; S1 Table sheet S13
+scripts/05_single_cell/02_generate_s1_figure.py	Supporting Figure S1 PDF and PNG	S1 Fig
