@@ -1,0 +1,15 @@
+feature	method	matched_label	effect_C2_minus_C1	FDR	direction	sig
+CD8 T cells	MCP-counter	CD8 T cells	0.140798478371066	0.0854851542931519	C2 higher	False
+CD8 T cells	xCell	CD8+ T-cells	-8.74413846856754e-05	0.430895809526342	C1 higher	False
+Fibroblasts	MCP-counter	Fibroblasts	0.150537813479656	0.337576584687121	C2 higher	False
+Fibroblasts	xCell	Fibroblasts	-0.010022710729043	0.44009522346976	C1 higher	False
+NK cells	MCP-counter	NK cells	0.0672255875167481	0.300681409617543	C2 higher	False
+NK cells	xCell	NK cells	0.0003097898784356	0.30719593599159	C2 higher	False
+Neutrophils	MCP-counter	Neutrophils	0.026174336166281	0.384972304434223	C2 higher	False
+Neutrophils	xCell	Neutrophils	9.4144070928118e-05	0.376893033866353	C2 higher	False
+T cells	MCP-counter	T cells	-0.027988253441543	0.817008850277764	C1 higher	False
+T cells	xCell	Th1 cells	0.0893917790311904	1.69867315845485e-23	C2 higher	True
+Endothelial cells	MCP-counter	Endothelial cells	0.0497805881235602	0.115141668215713	C2 higher	False
+Endothelial cells	xCell	ly Endothelial cells	-0.0063507216594377	0.399013063900867	C1 higher	False
+B lineage	MCP-counter	B lineage	-0.266789896062376	0.0200774791648767	C1 higher	True
+B lineage	xCell	pro B-cells	0.0029046195758022	5.53390462169451e-05	C2 higher	True

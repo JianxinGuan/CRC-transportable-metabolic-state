@@ -1,0 +1,15 @@
+﻿drug	claimed_target	direct_binding_assessment	cocrystal_PDB	resolution_A	decision	reason
+MK-1775 (AZD1775/adavosertib)	WEE1	confirmed direct inhibitor	5V5Y	1.9	retain	Human WEE1 kinase domain with MK-1775
+MK-1775 (AZD1775/adavosertib)	PLK1	confirmed structural binding	9D0P	2.65	retain	PLK1 with AZD1775; supports genuine single-drug dual-target evaluation
+Wee1 Inhibitor (generic GDSC label)	WEE1/CHEK1	compound identity ambiguous			exclude	Generic label cannot define a reproducible ligand or binding structure
+Irinotecan	TOP1	prodrug; TOP1 trapping is mainly mediated by SN-38			downgrade	No irinotecan-TOP1 co-crystal identified; may be reconsidered only as SN-38/TOP1
+Palbociclib	CDK6	confirmed direct inhibitor	5L2I	2.75	retain	Human CDK6-palbociclib co-crystal
+Palbociclib	CDK4	confirmed pharmacological target			downgrade	No palbociclib-CDK4 co-crystal identified in this audit
+Sepantronium bromide (YM155)	BIRC5/survivin	primarily suppresses survivin expression; direct BIRC5 binding not established			exclude	Pathway/transcriptional association is not a validated direct ligand-target pair
+Tozasertib (VX-680)	AURKA	confirmed direct inhibitor	3E5A	2.3	retain	Aurora A-VX-680-TPX2 co-crystal
+Tozasertib (VX-680)	AURKB	confirmed direct inhibitor	4AF3	2.75	retain	Human Aurora B-INCENP-VX-680 co-crystal
+MIRA-1	TP53	p53-reactivating compound but binding site/structural complex not established			exclude	No MIRA-1-TP53 co-crystal identified
+Dinaciclib	CDK2	confirmed direct inhibitor	4KD1	1.7	retain	CDK2-dinaciclib co-crystal
+Dinaciclib	CDK1	confirmed direct inhibitor	6GU6	2.33	retain	CDK1/Cks2-dinaciclib co-crystal
+Dinaciclib	CDK5/CDK9	pharmacological targets without candidate-specific co-crystal retained here			downgrade	Do not dock without a verified matching complex
+AZD5991	MCL1	confirmed direct inhibitor	6FS0	2.25	retain	MCL1 complex with AZD5991

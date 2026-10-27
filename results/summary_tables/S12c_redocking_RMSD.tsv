@@ -1,0 +1,4 @@
+﻿pdb_id	pose	vina_kcal_mol	heavy_atom_RMSD_A	passes_RMSD_le_2A	label
+5V5Y	1	-11.065	0.278376276559895	TRUE	WEE1 pose 1
+9D0P	1	-10.191	8.43046691983822	FALSE	PLK1 pose 1
+9D0P	2	-9.914	0.986204271368192	TRUE	PLK1 pose 2

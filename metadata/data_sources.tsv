@@ -1,0 +1,17 @@
+resource	accession_or_identifier	role	canonical_url	redistributed	public_metadata_verified_on
+GEO	GSE116035	human acidosis transcriptomics	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE116035	no	2026-10-27
+GEO	GSE152345	human acidosis transcriptomics	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152345	no	2026-10-27
+GEO	GSE200546	human acidosis transcriptomics	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE200546	no	2026-10-27
+GEO	GSE29406	human acidosis transcriptomics	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE29406	no	2026-10-27
+GEO	GSE300765	human acidosis transcriptomics	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE300765	no	2026-10-27
+GEO	GSE300768	human acidosis transcriptomics	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE300768	no	2026-10-27
+GEO	GSE9649	human acidosis transcriptomics	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE9649	no	2026-10-27
+GDC	TCGA-COAD;TCGA-READ	CRC discovery and patient-level analysis	https://portal.gdc.cancer.gov/projects/TCGA-COAD; https://portal.gdc.cancer.gov/projects/TCGA-READ	no	2026-10-27
+GEO	GSE39582	external fixed-centroid projection	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE39582	no	2026-10-27
+GEO	GSE17536	external fixed-centroid projection	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE17536	no	2026-10-27
+GEO	GSE132465	primary CRC single-cell analysis	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132465	no	2026-10-27
+GDSC	GDSC2 release 8.4	exploratory drug-response modeling	https://ftp.sanger.ac.uk/pub/project/cancerrxgene/releases/current_release/	no source-data redistribution	2026-10-27
+PDB	5V5Y;9D0P	exploratory structural analysis	https://www.rcsb.org/structure/5V5Y; https://www.rcsb.org/structure/9D0P	no	2026-10-27
+STRING	interaction score >= 400	functional network context	https://string-db.org/	derived edge subset only	2026-10-27
+Ensembl	release 113	mouse-human orthology mapping	https://www.ensembl.org/	derived mapping audit only	2026-10-27
+R package	oncoPredict 1.3.1 (GPL-2)	exploratory drug-response modeling	https://cran.r-project.org/package=oncoPredict	no package redistribution	2026-10-27

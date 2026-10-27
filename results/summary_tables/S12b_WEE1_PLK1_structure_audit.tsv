@@ -1,0 +1,3 @@
+﻿pdb_id	target	method	resolution_A	R_work	R_free	protein_chains	observed_residue_ranges	ligand_id	ligand_sites	ligand_atom_records	ligand_heavy_atoms	missing_residue_count	engineered_mutation	pdb_sha256	cif_sha256
+5V5Y	WEE1	X-ray diffraction	1.9	0.171	0.215	A	A:293-569	8X7	A:601	69	37	30	none	550973317cabe104a2cc018f44675102d40194f3e5bbd794d54664cd3afc7f56	078bcf2ac1bb9b54428b7eca9f3ba22b3dfc90684a3f0c61d061a7ccd289d6ee
+9D0P	PLK1	X-ray diffraction	2.65	0.247	0.29	A	A:37-330	8X7	A:401	70	37	41	T210V	891eb455fefed923c9d607a62bdaf29c7874775075be6d110f5ba13122359c19	6c1a3a66c0dcae1dcbe4a7480e387703763cf1142a11e8c161d668a3d3d0e868

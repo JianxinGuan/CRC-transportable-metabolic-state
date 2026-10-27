@@ -1,0 +1,2 @@
+table	analysis	n	observed_delta_adjusted_R2	base_adjusted_R2	full_adjusted_R2	permutation_n	empirical_P_greater_equal	permutation_mean	permutation_95CI_low	permutation_95CI_high	seed	model
+Supplementary Table S15	metabolic_intensity	622	0.064496078491369	0.6296071488268857	0.6941032273182548	2000	0.0004997501249375	-8.474369532175452e-06	-0.0006057165351312	0.0024781174149599	20261006	metabolic_intensity ~ proliferation_composite + hypoxia_score + microenv_proxy + CMS + project + acidosis_signed_score

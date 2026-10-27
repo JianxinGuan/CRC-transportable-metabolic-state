@@ -1,0 +1,33 @@
+project:
+  feature_size: 68
+  orthology_release: Ensembl_113
+  primary_tcga_patients: 624
+  external_cohorts: [GSE39582, GSE17536]
+
+meta_analysis:
+  robust_min_datasets: 3
+  strict_min_datasets: 4
+  strict_fdr: 0.05
+  strict_direction_consistency: 0.75
+  require_leave_one_dataset_out_direction_stability: true
+
+crispr_constraint:
+  author_reported_fdr: 0.05
+  required_conditions: 2
+  interpretation: general_metabolic_stress_constraint
+
+tcga_filter:
+  minimum_tpm: 1
+  minimum_sample_fraction: 0.80
+  require_nonzero_variance: true
+
+external_projection:
+  primary_centroids: full_tcga_cohort
+  sensitivity_centroids: exclusion_13
+
+multiple_testing:
+  method: Benjamini-Hochberg
+
+resampling:
+  paired_bootstrap_iterations: 2000
+  cms_label_permutations: 2000

@@ -1,0 +1,32 @@
+# Raw and restricted data
+data/
+raw_data/
+external_data/
+*.rds
+*.RData
+*.bam
+*.fastq
+*.fastq.gz
+
+# Manuscripts and editorial files
+*.docx
+cover_letter*
+response_to_reviewers*
+internal_*
+
+# Credentials and local configuration
+.env
+*.pem
+*.key
+credentials*
+secrets*
+
+# Runtime artifacts
+.Rhistory
+.Rproj.user/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+tmp/
+cache/

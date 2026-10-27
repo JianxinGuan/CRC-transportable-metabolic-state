@@ -1,0 +1,11 @@
+supported_script	main_output_domain	manuscript_or_supporting_location
+scripts/01_feature_construction/04_meta_crispr_intersection.R	174-candidate dual-evidence intersection and 68-gene evidence	Figure 1; Tables 1-3; S1 Table sheets S2-S5
+scripts/02_tcga_state/01_normalize_68_gene_matrix.py	TCGA 68-gene standardized matrix	Figure 2; S1 Table sheets S6a-S6b
+scripts/02_tcga_state/02_consensus_clustering.py	K=2-6 consensus stability and K=2 labels	Figure 2; S1 Table sheets S6a-S6b
+scripts/02_tcga_state/03_patient_dedup_survival.R	624-patient mapping and four survival endpoints	Figure 7; Table 4; S1 Table sheet S10a
+scripts/03_external_projection/01_gse39582_fixed_centroid_projection.R	external labels, silhouettes, margins, and centroid sensitivity	Figure 3 and Figure 5E; S1 Table sheets S6c-S7j
+scripts/04_boundary_analyses/03_patient_cms_msi_metabolic.R	CMS/MSI and within-CMS metabolism	Figure 6; Table 4; S1 Table sheets S9a-S9c
+scripts/04_boundary_analyses/04_exact_nested_models_624.R	strict CMS increment sensitivity	Figure 6; Table 4; S1 Table sheet S15
+scripts/04_boundary_analyses/05_acidification_metabolic_624.R	acidification, lactate, pathway, and metabolic models	Figures 4-5; Table 4; S1 Table sheets S7a-S7c
+scripts/04_boundary_analyses/06_immune_sensitivity_624.R	immune boundary summaries	Figure 7; S1 Table sheets S10b-S10d
+scripts/05_single_cell/01_process_gse132465_primary_crc.py	cell-source score and patient-level paired test	S1 Fig; S1 Table sheet S13

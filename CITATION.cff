@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite the associated article and archived software release."
+title: "CRC transportable metabolic-proliferative state: analysis code and supporting materials"
+type: software
+version: 1.0.0-submission
+date-released: 2026-10-27
+authors:
+  - family-names: Guan
+    given-names: Jianxin
+  - family-names: Qin
+    given-names: Yongbin
+  - family-names: Dang
+    given-names: Yi
+  - family-names: Lv
+    given-names: Haimei
+  - family-names: Chen
+    given-names: Jiazhuang
+license: MIT
+repository-code: "https://github.com/JianxinGuan/CRC-transportable-metabolic-state"
+abstract: "Code and derived supporting materials for a three-phase construction, transportability, and boundary-setting workflow in colorectal cancer."

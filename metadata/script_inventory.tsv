@@ -1,0 +1,12 @@
+script	phase	role	status	validation_scope
+scripts/01_feature_construction/04_meta_crispr_intersection.R	construction	Meta-analysis and CRISPR intersection	release_ready	Numerically reproduced from frozen official-annotation Meta-ready input; raw GEO preprocessing not included in this validation
+scripts/02_tcga_state/01_normalize_68_gene_matrix.py	TCGA state	Standardize frozen 68-gene matrix	release_ready	Exact match to frozen Stage 23 outputs
+scripts/02_tcga_state/02_consensus_clustering.py	TCGA state	K=2-6 consensus assessment	release_ready	Exact match to frozen Stage 24 outputs with frozen seed and defaults
+scripts/02_tcga_state/03_patient_dedup_survival.R	TCGA state	624-patient deduplication and survival	release_ready	Patient selection and four endpoint summaries reproduced; source inputs are not redistributed
+scripts/03_external_projection/01_gse39582_fixed_centroid_projection.R	external projection	ACTR6-inclusive 68-gene fixed-centroid projection	release_ready	GSE39582 and GSE17536 primary and exclusion-13 sensitivity metrics reproduced
+scripts/04_boundary_analyses/03_patient_cms_msi_metabolic.R	boundary	CMS/MSI and within-CMS metabolism	release_ready	Patient-level CMS/MSI and within-CMS summaries reproduced
+scripts/04_boundary_analyses/04_exact_nested_models_624.R	boundary	Strict nested CMS increment models	release_ready	Nested models and permutation-referenced frozen outputs reproduced
+scripts/04_boundary_analyses/05_acidification_metabolic_624.R	boundary	624-patient acidification, lactate, and metabolic models	release_ready	Categorical, adjusted, pathway, and proliferation-adjusted outputs reproduced
+scripts/04_boundary_analyses/06_immune_sensitivity_624.R	boundary	624-patient immune sensitivity	release_ready	Primary S10a-S10d fields reproduced within floating-point tolerance
+scripts/05_single_cell/01_process_gse132465_primary_crc.py	single cell	GSE132465 68-gene scoring	release_ready	68/68 genes, cell/patient counts, medians, and paired Wilcoxon result reproduced
+archive/provenance_only_scripts/	archive	Historical and figure-generation scripts	provenance_only	Not part of the supported execution path; no end-to-end public-layout guarantee

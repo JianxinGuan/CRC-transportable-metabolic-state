@@ -1,0 +1,5 @@
+﻿cohort	centroid	silhouette_mean
+GSE39582	Original TCGA centroids	0.103350647706322
+GSE17536	Original TCGA centroids	0.0907423697344001
+GSE39582	Exclusion-13 centroids	0.104384557147926
+GSE17536	Exclusion-13 centroids	0.133417082730932

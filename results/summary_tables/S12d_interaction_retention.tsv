@@ -1,0 +1,4 @@
+﻿target	reference	comparison	interaction_type	reference_n	comparison_n	retained_n	lost_n	gained_n	jaccard	reference_retention_fraction	label
+WEE1	WEE1_crystal	WEE1_pose1	ALL_TYPED_CONTACTS	10	12	9	1	3	0.6923	0.9	WEE1 pose 1
+PLK1	PLK1_crystal	PLK1_pose1	ALL_TYPED_CONTACTS	8	9	4	4	5	0.3077	0.5	PLK1 pose 1
+PLK1	PLK1_crystal	PLK1_pose2_native_like	ALL_TYPED_CONTACTS	8	8	7	1	1	0.7778	0.875	PLK1 pose 2

@@ -1,0 +1,9 @@
+cohort	centroid_specification	centroid	outcome	label	n	cluster1_n	cluster2_n	genes_detected	C1_mean	C2_mean	effect_C2_minus_C1	p_value	FDR	significant
+GSE17536	exclusion13_rebuilt_centroids	Exclusion-13 centroids	acidification_composite	Acidification composite	177	87	90	23	-0.0890080002350048	0.0860410668938383	0.175049067128843	0.00149143546928324	0.00372858867320811	TRUE
+GSE17536	full_cohort_fixed_centroids	Full-cohort centroids	acidification_composite	Acidification composite	177	87	90	23	-0.0396178469980556	0.0382972520981208	0.0779150990961764	0.190144909947627	0.475362274869067	FALSE
+GSE17536	exclusion13_rebuilt_centroids	Exclusion-13 centroids	lactate_axis	Lactate axis	177	87	90	7	-0.222246782744416	0.214838556652935	0.437085339397351	6.72357868216846e-07	3.36178934108423e-06	TRUE
+GSE17536	full_cohort_fixed_centroids	Full-cohort centroids	lactate_axis	Lactate axis	177	87	90	7	-0.133287840121576	0.128844912117523	0.262132752239099	0.00335919539212617	0.0167959769606309	TRUE
+GSE39582	exclusion13_rebuilt_centroids	Exclusion-13 centroids	acidification_composite	Acidification composite	566	273	293	23	-0.0589438109631813	0.054920342638049	0.11386415360123	0.000408850462727061	0.00102212615681765	TRUE
+GSE39582	full_cohort_fixed_centroids	Full-cohort centroids	acidification_composite	Acidification composite	566	273	293	23	-0.0337622384154762	0.0314576487625423	0.0652198871780185	0.0445193464557708	0.074198910759618	FALSE
+GSE39582	exclusion13_rebuilt_centroids	Exclusion-13 centroids	lactate_axis	Lactate axis	566	273	293	7	-0.180714727747804	0.168379251451025	0.34909397919883	8.27224244809067e-13	4.13612122404534e-12	TRUE
+GSE39582	full_cohort_fixed_centroids	Full-cohort centroids	lactate_axis	Lactate axis	566	273	293	7	-0.113380177276176	0.105640916028655	0.21902109330483	1.96040908253601e-05	9.80204541268006e-05	TRUE

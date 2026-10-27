@@ -1,0 +1,13 @@
+﻿dataset	contrast	contrast_family	cell_line	analysis_method	platform	role	formal_primary
+GSE116035	pH6.5_vs_pH7.4_adjusted_cell_line	acute_acidosis	FaDu;HCT-116;SiHa	DESeq2	RNA-seq processed counts	primary	TRUE
+GSE152345	pH6.5_vs_pH7.6	acute_acidosis	MCF7	DESeq2	RNA-seq gene counts	primary	TRUE
+GSE152345	pH6.5_vs_pH7.6	acute_acidosis	MDA-MB-231	DESeq2	RNA-seq gene counts	primary	TRUE
+GSE152345	pH6.5_vs_pH7.6	acute_acidosis	PANC1	DESeq2	RNA-seq gene counts	primary	TRUE
+GSE200546	pH6.6_vs_pH7.4	acute_acidosis	CLS1	DESeq2	RNA-seq expected counts	primary	TRUE
+GSE29406	LA_vs_Ctrl	lactic_acidosis	MCF7	limma	GPL571	primary	TRUE
+GSE300765	acute_acidosis_vs_acute_neutral	acute_acidosis	U87MG	limma	GPL10558	primary	TRUE
+GSE300765	chronic_acidosis_vs_chronic_neutral	chronic_acidosis	U87MG	limma	GPL10558	primary	TRUE
+GSE300768	pH6.4_vs_pH7.4	chronic_acidosis	PANC1	limma	GPL23126 official annotation	primary	TRUE
+GSE9649	Acidosis_vs_Ctrl	acute_acidosis	HMEC	limma	GPL570	primary	TRUE
+GSE9649	LA_vs_Ctrl	lactic_acidosis	HMEC	limma	GPL570	primary	TRUE
+GSE300768	pH6.4_vs_pH7.4	chronic_acidosis	PANC1	limma	GPL23126 official annotation	secondary_sensitivity	FALSE

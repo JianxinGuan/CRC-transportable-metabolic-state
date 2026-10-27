@@ -1,0 +1,11 @@
+﻿dataset	assay	latest_status	primary_analysis	integration_use	exclusion_or_caution
+GSE200546	RNA-seq	DESeq2 complete	TRUE	primary	RSEM expected counts rounded for DESeq2; 24H/0H auxiliary samples excluded
+GSE116035	RNA-seq	overall and 3 stratified DESeq2 complete	TRUE	primary overall; strata sensitivity	processed counts rounded; cell-line heterogeneity explicitly assessed
+GSE152345	RNA-seq	3 cell-line DESeq2 complete	TRUE	primary by cell line	do not pool three cell lines as biological replicates
+GSE29406	microarray	GPL571 annotated gene-level limma complete	TRUE	primary LA; hypoxia/combined auxiliary	duplicate probes collapsed by maximum IQR after hgu133a2.db annotation
+GSE300768	microarray	limma complete with official GPL23126-131 annotation	FALSE	secondary sensitivity only	Official GPL23126-131 annotation applied; prior GitHub backup superseded
+GSE9649	microarray	GPL570 gene-level limma complete	TRUE	primary acidosis/LA; other stresses auxiliary	multiple treatments share study context; experiment block retained
+GSE300765	microarray	GPL10558 gene-level limma complete	TRUE	primary chronic/acute; hypoxia auxiliary	actual cell line is U87MG, correcting obsolete audit entry that stated PANC1
+GSE215085	processed fold-change	fold-change tables only	FALSE	auxiliary only	no sample-level expression matrix; cannot enter DESeq2/limma meta-analysis
+GSE315655	unknown/incomplete	series matrix incomplete	FALSE	excluded	3 KB metadata/incomplete matrix; no valid expression analysis
+
